@@ -16,7 +16,7 @@
     //* iconlarla ilgili ayrı bir işlem yapmanız gerekiyor, gelen veride iconun sadece kodu var, bu kodu alıp iconları gösteren bir url'ye monte etmeniz gerekiyor, yani son hali şu şekilde olacak: `http://openweathermap.org/img/wn/${icon}.png`, bunu bir değişkene atayıp daha sonra img elementinde kullanacağız.
     // npm install dotenv
 
-// require('dotenv').config();
+require('dotenv').config();
 const apiKey = process.env.API_KEY;
 
 console.log(apiKey)
