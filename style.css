@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    padding: 0.1px;
+    background-image: url("weather.jpg");
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+}
+.container h1{
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    font-size: 2.4rem;
+    color:rgb(204, 248, 91);
+}
+
+.inp{
+    color:black;
+    padding-left: 0.2rem;
+    padding-top: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    width: 20rem;
+    height: 3rem;
+    border: none;
+    border-bottom: 2px solid black;
+}
+
+.inp[placeholder]{
+    color: black;
+    opacity: 0.7;
+    background-color: transparent;
+}
+ .inp:focus{
+    outline: none;
+ }
+
+ /* button */
+ .btn{
+    margin-left: 2rem;
+    width: 7rem;
+    height: 2.5rem;
+    border-radius: 0.4rem;
+    font-size: 1.2rem;
+    
+ }
+ .btn:hover{
+    background-color: blanchedalmond;
+    color: darkblue;
+ }
+
+ .btn:active{
+    transform: scale(0.9);
+    background-color: rgb(29, 210, 105);
+ 
+ }
+
+ /* card */
+.content{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+ .card{
+    margin-top:2rem ;
+    font-size: 1.2rem;
+    font-weight: 550;
+    border-radius: 0.6rem;
+    text-transform: capitalize;
+    padding: 1rem 0;
+    background-color: rgb(104, 235, 132, 0.5);
+    width: 10rem;
+    height: 18rem;
+
+ }
+ .img{
+    margin: 1rem 0;
+    width: 7rem;
+ }
